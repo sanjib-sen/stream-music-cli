@@ -2,6 +2,7 @@
 
 ## Requirements:
 - [Python](https://www.python.org/downloads/)
+- [VLC](https://www.videolan.org/)
 
 ## Build
 Install Dependencies through CMD/Powershell/Bash/ZSH
