@@ -1,5 +1,6 @@
 import pathlib
 from setuptools import find_packages, setup
+from _version import __version__
 
 HERE = pathlib.Path(__file__).parent
 
@@ -7,7 +8,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="youtube_stream",
-    version="0.0.4",
+    version=__version__,
     description="Stream Youtube Music Videos in Local Media Player (Currently VLC) using Command Line!",
     long_description=README,
     long_description_content_type="text/markdown",
