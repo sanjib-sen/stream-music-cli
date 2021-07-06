@@ -7,17 +7,17 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="youtube_stream",
+    name="youtube-stream",
     version=__version__,
     description="Stream Youtube Music Videos in Local Media Player (Currently VLC) using Command Line!",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/sanjib-sen/youtube_stream",
+    url="https://github.com/sanjib-sen/youtube-stream",
     author="Sanjib Kumar Sen",
     author_email="sksenonline@gmail.com",
     license="MIT",
     keywords = ['youtube', 'streaming', 'vlc', 'video', 'audio', 'automation'],
-    download_url = 'https://github.com/sanjib-sen/youtube-stream/archive/v_0.0.4.tar.gz',
+    download_url = 'https://github.com/sanjib-sen/youtube-stream/archive/v_'+__version__+'.tar.gz',
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: MIT License",
