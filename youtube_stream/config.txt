@@ -1,0 +1,4 @@
+[windows]
+vlc = "C:/Program Files/VideoLAN/VLC/vlc.exe"
+[linux]
+vlc = vlc

@@ -1,22 +1,30 @@
 # pymusic
 
-## Requirements:
+## Requirements
+
 - [Python](https://www.python.org/downloads/)
 - [VLC](https://www.videolan.org/)
 
 ## Build and Run
-- Install Python and VLC
-- Install Dependencies through CMD/Powershell/Bash/ZSH
-```bash
-pip install bs4 speech_recognition pyaudio
-```
+
+- Install Python, pip and VLC
+- Install youtube-stream
+
+  ```bash
+  pip install youtube-stream
+  ```
+
 - Run from command line (Powershell/Bash/CMD/zsh/fish)
   - for voice search
+
   ```bash
-  python3 main.py
+  stream main.py
   ```
+
   - Or, for text search
+
   ```bash
-  python3 main.py <song name>
+  stream <song name>
   ```
-### Enjoy!
+
+### Enjoy
