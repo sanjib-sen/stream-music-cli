@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 setup(
     name="youtube-stream",
     version=__version__,
-    description="Stream Youtube Music Videos in Local Media Player (Currently VLC) using Command Line!",
+    description="Stream Youtube Music Videos from Command Line!",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/sanjib-sen/youtube-stream",

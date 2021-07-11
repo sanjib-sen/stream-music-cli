@@ -1,2 +1,1 @@
-include *.txt
-include youtube-stream *.txt
+recursive-include *
