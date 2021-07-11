@@ -35,7 +35,7 @@ youtube-stream is a console app for streaming videos quickly from Youtube. Suppo
 #### Recommended Method (Console)
 
 1. Download and Install [VLC](https://www.videolan.org/)
-2. Download and Install [Python](https://www.python.org/downloads/release/python-396/). **(Mark Add Python to Path while installation)** and [pip](https://phoenixnap.com/kb/install-pip-windows)
+2. Download and Install [Python](https://www.python.org/downloads/release/python-396/). **(Mark Add Python to Path while installation)**
 3. Open `Command Prompt` or `Powershell` and Run:
 
 ```bash
