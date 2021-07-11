@@ -1,10 +1,37 @@
 # Youtube Stream
 
+![MadeBy](https://img.shields.io/badge/Made%20By-Sanjib--Sen-blueviolet?style=for-the-badge)
+
+![GitHub followers](https://img.shields.io/github/followers/sanjib-sen?style=for-the-badge)
+
+![GitHub User's stars](https://img.shields.io/github/stars/sanjib-sen?style=for-the-badge)
+
+![LICENSE](https://img.shields.io/github/license/sanjib-sen/youtube-stream?style=for-the-badge)
+
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/sanjib-sen/youtube-stream?include_prereleases&style=for-the-badge)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sanjib-sen/youtube-stream?style=for-the-badge)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/sanjib-sen/youtube-stream?style=for-the-badge)
+
+![PyPI - Status](https://img.shields.io/pypi/status/youtube-stream?style=for-the-badge)
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/youtube-stream?style=for-the-badge)
+
+![PyPI](https://img.shields.io/pypi/v/youtube-stream?style=for-the-badge)
+
+---
+youtube-stream is a console app for streaming videos quickly from Youtube. Suppose you are working on something and don't have the feeling for opening up youtube, search for the song and play it. It is also a bit more troublesome for playing multiple songs from youtube. That's why I have made a module from where you can listen and watch your favourite songs as quickly as possible. Even there is a voice search option for lazy typists. Using this app, you can stream/play multiple videos/musics at once with a single command. e.g. `stream the reason, aurora runaway` will add Hoobastank's Reason and Aurora's Runaway song in your vlc playlist and play them one after another.
+
+---
+
 ## Requirements
 
 - [VLC](https://www.videolan.org/)
 
-## Installation and Usage
+---
+
+## Installation
 
 ### Windows
 
@@ -50,6 +77,8 @@ sudo dnf install vlc python3 python3-pip && sudo pip install -U youtube-stream
 sudo pacman -Syu vlc python3 python3-pip && sudo pip install -U youtube-stream
 ```
 
+---
+
 ## Usage (From Console)
 
 ### Text Search
@@ -93,3 +122,12 @@ sudo pacman -Syu vlc python3 python3-pip && sudo pip install -U youtube-stream
   e.g iridescent linkin park then yellow coldplay
 
 ### Enjoy
+
+---
+
+## Upcoming
+
+1. Support for Downloading Videos in High Quality
+2. Support for other media players e.g. MPV, KMP etc.
+
+---
