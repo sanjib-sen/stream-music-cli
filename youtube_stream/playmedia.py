@@ -14,4 +14,5 @@ def get_path():
     return r'{} '.format(path)
 
 def play(videos):
-    subprocess.Popen(get_path()+ videos +" 2> /dev/null", shell=True)
+    if os.name!='nt': subprocess.Popen(get_path()+ videos +" 2> /dev/null", shell=True)
+    else: subprocess.Popen(get_path()+ videos, shell=True)
