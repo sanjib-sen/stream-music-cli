@@ -23,7 +23,7 @@ youtube-stream is a console app for streaming videos quickly from Youtube. Suppo
 #### Easy Method (App)
 
 1. Download and Install [VLC](https://www.videolan.org/)
-2. Download [youtube-stream.exe](https://github.com/sanjib-sen/youtube-stream/releases/download/0.09/youtube-stream.exe)
+2. Download [youtube-stream.exe](https://github.com/sanjib-sen/youtube-stream/releases/download/0.12/youtube-stream.exe)
 3. Run **youtube-stream.exe**
 
 #### Recommended Method (Console)
