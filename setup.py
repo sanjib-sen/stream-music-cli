@@ -1,6 +1,6 @@
 import pathlib
 from setuptools import find_packages, setup
-from _version import __version__
+from youtube_stream.__init__ import __version__
 
 HERE = pathlib.Path(__file__).parent
 

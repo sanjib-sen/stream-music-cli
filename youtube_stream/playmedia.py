@@ -12,4 +12,4 @@ def get_path():
     return r'{} '.format(path)
 
 def play(videos):
-    subprocess.Popen(get_path()+ videos, shell=True)
+    subprocess.Popen(get_path()+ videos +" 2> /dev/null", shell=True)

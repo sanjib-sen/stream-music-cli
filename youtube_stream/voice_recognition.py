@@ -1,7 +1,6 @@
 import speech_recognition as sr
-
+from .mute_shell import mute_on, mute_off
 def recognize_speech_from_mic(recognizer, microphone):
-
     with microphone as source:
         recognizer.adjust_for_ambient_noise(source)
         audio = recognizer.listen(source)
@@ -23,8 +22,11 @@ def recognize_speech_from_mic(recognizer, microphone):
     return response
 
 def voice():
+
     recognizer = sr.Recognizer()
+    mute_on()
     microphone = sr.Microphone()
+    mute_off()
 
     print('Listening... (Press "Ctrl+C" to cancel)')
     voice_text = recognize_speech_from_mic(recognizer, microphone)
