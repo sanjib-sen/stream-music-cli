@@ -5,3 +5,5 @@ __pycache__/
 youtube_stream/__pycache__/
 youtube_stream.egg-info/
 *.exe
+*.tar.gz
+deb_dist/

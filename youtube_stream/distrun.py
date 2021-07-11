@@ -3,17 +3,19 @@ from importlib import resources
 from .search import search
 from .playmedia import play
 import sys
+from .imports import ascii_art
 ''' 
  to generate .exe file
  pyinstaller dist.py --add-data "youtube_stream/*.txt;youtube_stream" --onefile --name youtube_stream
  or pyinstaller youtube_stream.spec
  
 '''
-ascii=resources.read_text("youtube_stream", "ascii_art.txt")
-
 def run():
     print("\n\n")
-    print(ascii)
+    try:
+        print(ascii_art)
+    except:
+        print("             Youtube-Stream      ")
     print("\n\n\n")
     while True:
         print("Type Song name (Use comma (,) for multiple songs)")

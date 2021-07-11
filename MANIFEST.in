@@ -1,1 +1,2 @@
-include youtube-stream/*.txt
+include *.txt
+include youtube-stream *.txt

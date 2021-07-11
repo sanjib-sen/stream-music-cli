@@ -1,10 +1,12 @@
 import subprocess, os
 from configparser import ConfigParser
-from importlib import resources  # Python 3.7+
-
+from .imports import config_file
 def get_path():
     cfg = ConfigParser()
-    cfg.read_string(resources.read_text("youtube_stream", "config.txt"))
+    try:
+        cfg.read_string(config_file)
+    except:
+        return r'{} '.format("vlc")
     if os.name=='nt':
         path = cfg.get("windows", "vlc")
     else:
