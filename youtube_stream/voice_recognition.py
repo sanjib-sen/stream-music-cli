@@ -27,10 +27,8 @@ def voice():
     mute_on()
     microphone = sr.Microphone()
     mute_off()
-
     print('Listening... (Press "Ctrl+C" to cancel)')
     voice_text = recognize_speech_from_mic(recognizer, microphone)
-
     if voice_text["transcription"]:
         print(voice_text['transcription'])
         return voice_text['transcription']
