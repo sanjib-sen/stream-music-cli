@@ -1,5 +1,7 @@
 # Youtube Stream
 
+![image](screenshots/windows.png)
+
 ![MadeBy](https://img.shields.io/badge/Made%20By-Sanjib--Sen-blueviolet?style=for-the-badge) ![GitHub followers](https://img.shields.io/github/followers/sanjib-sen?style=for-the-badge) ![GitHub User's stars](https://img.shields.io/github/stars/sanjib-sen?style=for-the-badge) ![LICENSE](https://img.shields.io/github/license/sanjib-sen/youtube-stream?style=for-the-badge) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/sanjib-sen/youtube-stream?include_prereleases&style=for-the-badge) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/sanjib-sen/youtube-stream?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/sanjib-sen/youtube-stream?style=for-the-badge) ![PyPI - Status](https://img.shields.io/pypi/status/youtube-stream?style=for-the-badge) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/youtube-stream?style=for-the-badge) ![PyPI](https://img.shields.io/pypi/v/youtube-stream?style=for-the-badge)
 
 ---
@@ -41,7 +43,7 @@ python -m pip install youtube-stream
 > From command line, run:
 
 ```bash
-sudo apt install vlc python3 python3-pip && sudo pip install -U youtube-stream
+sudo apt install vlc python3 python3-pip && pip install -U youtube-stream
 ```
 
 #### Fedora, OpenSuse, RedHat
@@ -49,15 +51,15 @@ sudo apt install vlc python3 python3-pip && sudo pip install -U youtube-stream
 > From command line, run:
 
 ```bash
-sudo dnf install vlc python3 python3-pip && sudo pip install -U youtube-stream
+sudo dnf install vlc python3 python3-pip && pip install -U youtube-stream
 ```
 
-#### Arch Linux
+#### Arch Linux, Manjaro, EndeavourOS
 
 > From command line, run:
 
 ```bash
-sudo pacman -Syu vlc python3 python3-pip && sudo pip install -U youtube-stream
+sudo pacman -Syu vlc python3 python3-pip && pip install -U youtube-stream
 ```
 
 ---
