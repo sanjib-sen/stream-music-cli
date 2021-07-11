@@ -10,6 +10,12 @@ youtube-stream is a console app for streaming videos quickly from Youtube. Suppo
 
 ---
 
+## Console Demo
+
+![Demo](https://raw.githubusercontent.com/sanjib-sen/youtube-stream/master/screenshots/demo.gif)
+
+---
+
 ## Requirements
 
 -   [VLC](https://www.videolan.org/)
